@@ -13,10 +13,11 @@ int main()
   //get user input
   cout<<"What is your first name?: ";
   cin>>first;
-  cout<<"What is your last name?: ";
+  cout<<endl<<"What is your last name?: ";
   cin>>last;
-
+  
   //tell fortune
+  cout<<endl<<"Welcome, "<<first[0]<<"."<<last[0]<<"., here is your fortune..."<<endl;
 
   return 0;
 }
